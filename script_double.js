@@ -1,3 +1,19 @@
+var canvas = document.getElementById('game');
+
+var context = canvas.getContext('2d');
+
+var grid = 24;
+
+var count = 0;
+
+var snake = {
+    x: grid*10,
+    y: grid*10,
+    dx: grid,
+    dy: 0,
+    cells: [],
+    maxCells: 4
+};
 var snake2 = {
     x: grid*15,
     y: grid*15,
