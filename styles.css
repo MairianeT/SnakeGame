@@ -1,14 +1,19 @@
 html,
 body {
+    background: black;
     height: 100%;
     margin: 0;
 }
 
-body {
-    background: black;
+.game {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    color: white;
+    bottom: 10%;
 }
 
 .btn {
